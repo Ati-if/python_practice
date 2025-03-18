@@ -23,6 +23,8 @@ Area = Length * Width
 
 print(f"The area of the rectangle is {Area}")
 
+
+
 item = input("What item would you like to buy")
 price = float(input("What is the price of the item"))
 quantity = int(input("How many would you like to buy"))
