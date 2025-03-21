@@ -1,4 +1,4 @@
-temp = 6
+temp = 20
 is_sunny = "false"
 
 if temp >= 20 and is_sunny:
