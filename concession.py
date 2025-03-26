@@ -29,4 +29,4 @@ for food in cart:
     total += menu.get(food, 0) 
     print(food, end=" ")
 
-print(f"\nTotal: ${total:.2f}") 
+print(f"\nTotal: ${total:.2f}")
