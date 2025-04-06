@@ -25,4 +25,23 @@ student = input("Enter the name of the student")
 if student in grades:
     print(f"{student} has a grade of {grades[student]}")
 else:
-    print(f"{student} has not been found")  
+    print(f"{student} has not been found") 
+
+
+
+
+
+
+
+
+
+
+
+email = "natif3101@gmail.com"
+
+
+if "@" in email and "." in email:
+  print("Valid email")
+
+else:
+  print("Invalid email")    
