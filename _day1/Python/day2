@@ -33,4 +33,15 @@ if a > b:
     print(a, "is larger")
 else:
     print(b, "is larger")
+
+
+
+secret_number = 7
+
+guess = int(input("Guess the number: "))
+
+if guess == secret_number:
+    print("Correct!")
+else:
+    print("Wrong guess!")    
     
