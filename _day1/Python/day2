@@ -13,3 +13,13 @@ print("Addition:", a + b)
 print("Subtraction:", a - b)
 print("Multiplication:", a * b)
 print("Division:", a / b)  
+
+
+
+
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    print("You are an adult")
+else:
+    print("You are not an adult")
