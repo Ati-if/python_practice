@@ -33,3 +33,15 @@ if password == "12345":
     print("Correct password")
 else:
     print("Wrong password")
+
+
+
+
+
+
+names = ["Ali", "Ahmed", "Sara", "Usman"]
+
+print(names)
+print(names[0])
+print(names[1])
+print(names[2])
