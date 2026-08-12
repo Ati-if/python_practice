@@ -21,3 +21,15 @@ elif marks >= 50:
     print("Grade D")
 else:
     print("Fail")
+
+
+
+
+
+
+password = input("Enter password: ")
+
+if password == "12345":
+    print("Correct password")
+else:
+    print("Wrong password")
