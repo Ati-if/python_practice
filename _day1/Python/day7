@@ -35,3 +35,15 @@ if search in numbers:
     print("Number found")
 else:
     print("Number not found")
+
+
+
+
+
+
+
+fruits = ["Apple", "Banana", "Mango", "Orange"]
+
+fruits.remove("Mango")
+
+print(fruits)
