@@ -57,3 +57,16 @@ fruits = ["Apple", "Banana", "Mango"]
 fruits.append("Orange")
 
 print(fruits)
+
+
+
+
+
+
+
+
+numbers = [50, 20, 40, 10, 30]
+
+numbers.sort()
+
+print(numbers)
