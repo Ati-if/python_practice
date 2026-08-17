@@ -47,3 +47,13 @@ fruits = ["Apple", "Banana", "Mango", "Orange"]
 fruits.remove("Mango")
 
 print(fruits)
+
+
+
+
+
+fruits = ["Apple", "Banana", "Mango"]
+
+fruits.append("Orange")
+
+print(fruits)
