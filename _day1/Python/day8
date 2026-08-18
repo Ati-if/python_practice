@@ -32,3 +32,37 @@ def check_even_odd(number):
 number = int(input("Enter number: "))
 
 print(check_even_odd(number))
+
+
+
+
+
+def square(number):
+    return number * number
+
+
+number = int(input("Enter number: "))
+
+print("Square =", square(number))
+
+
+
+
+
+name = input("Enter student name: ")
+
+marks1 = int(input("Enter marks for subject 1: "))
+marks2 = int(input("Enter marks for subject 2: "))
+marks3 = int(input("Enter marks for subject 3: "))
+
+total = marks1 + marks2 + marks3
+percentage = total / 3
+
+print("Student:", name)
+print("Total:", total)
+print("Percentage:", percentage)
+
+if percentage >= 50:
+    print("Pass")
+else:
+    print("Fail")
