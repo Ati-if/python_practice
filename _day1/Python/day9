@@ -32,3 +32,15 @@ if amount <= balance:
     print("Remaining balance =", balance)
 else:
     print("Insufficient balance")
+
+
+
+
+
+username = input("Enter username: ")
+password = input("Enter password: ")
+
+if username == "Atii" and password == "1390":
+    print("Welcome Atii")
+else:
+    print("Your Data is at risk")
