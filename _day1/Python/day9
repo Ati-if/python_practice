@@ -1,0 +1,7 @@
+price1 = float(input("Enter price of item 1: "))
+price2 = float(input("Enter price of item 2: "))
+price3 = float(input("Enter price of item 3: "))
+
+total = price1 + price2 + price3
+
+print("Total bill =", total)
