@@ -1,0 +1,8 @@
+number = int(input("Enter a number: "))
+
+root = int(number ** 0.5)
+
+if root * root == number:
+    print("Perfect square")
+else:
+    print("Not a perfect square")
