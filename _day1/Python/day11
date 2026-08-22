@@ -24,3 +24,13 @@ for letter in text:
 
 print("Vowels:", vowels)
 print("Consonants:", consonants)
+
+
+
+
+
+sentence = input("Enter a sentence: ")
+
+words = sentence.split()
+
+print("Number of words:", len(words))
