@@ -7,3 +7,20 @@ for number in numbers:
         unique.append(number)
 
 print(unique)
+
+
+
+
+text = input("Enter a word: ")
+
+vowels = 0
+consonants = 0
+
+for letter in text:
+    if letter in "aeiouAEIOU":
+        vowels += 1
+    elif letter.isalpha():
+        consonants += 1
+
+print("Vowels:", vowels)
+print("Consonants:", consonants)
