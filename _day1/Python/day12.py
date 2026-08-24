@@ -46,3 +46,7 @@ average_sales = total_sales / 5
 
 print("Total Sales: Rs.", round(total_sales, 2))
 print("Average Sales: Rs.", round(average_sales, 2))
+
+
+
+
