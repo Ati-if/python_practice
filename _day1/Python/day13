@@ -1,0 +1,16 @@
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+
+a, b = b, a
+
+print("a =", a)
+print("b =", b)
+
+
+
+
+celsius = float(input("Enter temperature in Celsius: "))
+
+fahrenheit = (celsius * 9 / 5) + 32
+
+print("Fahrenheit =", fahrenheit)
