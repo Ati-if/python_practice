@@ -5,3 +5,18 @@ time = float(input("Enter time: "))
 interest = (principal * rate * time) / 100
 
 print("Simple Interest =", interest)
+
+
+
+
+
+
+student = {
+    "name": "Ali",
+    "age": 20,
+    "marks": 85
+}
+
+print("Name:", student["name"])
+print("Age:", student["age"])
+print("Marks:", student["marks"])
