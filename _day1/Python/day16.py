@@ -37,3 +37,15 @@ for i in range(1, 11):
 
 for i in range(1, 11):
     print(i, "=", i * i)
+
+
+
+
+
+total = 0
+
+for i in range(5):
+    number = int(input("Enter a number: "))
+    total = total + number
+
+print("Total =", total)
