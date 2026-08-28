@@ -44,3 +44,19 @@ for number in range(1, 6):
         print(number, "x", i, "=", number * i)
 
     print()
+
+
+
+
+
+
+
+text = input("Enter a sentence: ")
+
+spaces = 0
+
+for character in text:
+    if character == " ":
+        spaces += 1
+
+print("Spaces =", spaces)
