@@ -60,3 +60,20 @@ for character in text:
         spaces += 1
 
 print("Spaces =", spaces)
+
+
+
+
+
+
+
+text = input("Enter a word: ")
+letter = input("Enter letter to count: ")
+
+count = 0
+
+for character in text:
+    if character == letter:
+        count += 1
+
+print("Count =", count)
