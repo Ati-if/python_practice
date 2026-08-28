@@ -21,3 +21,13 @@ for number in numbers:
         smallest = number
 
 print("Smallest =", smallest)
+
+
+
+
+number = int(input("Enter number: "))
+power = int(input("Enter power: "))
+
+result = number ** power
+
+print("Answer =", result)
