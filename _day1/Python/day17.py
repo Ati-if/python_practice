@@ -31,3 +31,16 @@ power = int(input("Enter power: "))
 result = number ** power
 
 print("Answer =", result)
+
+
+
+
+
+
+for number in range(1, 6):
+    print("Table of", number)
+
+    for i in range(1, 11):
+        print(number, "x", i, "=", number * i)
+
+    print()
