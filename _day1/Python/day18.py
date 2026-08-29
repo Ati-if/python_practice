@@ -122,11 +122,8 @@ print("Your score =", score)
 
 
 
-<<<<<<< HEAD
+
 correct_password = "Demon"
-=======
-correct_password = "python123"
->>>>>>> de824ce78f56ddc30466d63aa48d9ff05985458c
 
 for i in range(3):
     password = input("Enter password: ")
