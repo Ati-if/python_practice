@@ -92,3 +92,27 @@ elif choice == 3:
 
 else:
     print("Invalid choice")
+
+
+
+
+
+score = 0
+
+answer = input("What is the capital of Pakistan? ")
+
+if answer.lower() == "islamabad":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong!")
+
+answer = input("What is 5 + 5? ")
+
+if answer == "10":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong!")
+
+print("Your score =", score)
