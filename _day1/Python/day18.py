@@ -15,3 +15,15 @@ if word.endswith("ing"):
     print("The word ends with ing")
 else:
     print("The word does not end with ing")
+
+
+
+
+
+
+
+sentence = input("Enter a sentence: ")
+
+new_sentence = sentence.replace("bad", "good")
+
+print(new_sentence)
