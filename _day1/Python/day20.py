@@ -12,3 +12,18 @@ if total == original:
     print("Armstrong number")
 else:
     print("Not an Armstrong number")
+
+
+
+
+
+
+
+numbers = [5, 10, 15, 20, 25]
+
+total = 0
+
+for number in numbers:
+    total += number
+
+print("Total =", total)
