@@ -64,3 +64,12 @@ for number in numbers:
 
 print("Even =", even)
 print("Odd =", odd)
+
+
+
+
+numbers = [-5, 10, -2, 20, 15, -8]
+
+for number in numbers:
+    if number > 0:
+        print(number)
