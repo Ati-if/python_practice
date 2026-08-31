@@ -73,3 +73,14 @@ numbers = [-5, 10, -2, 20, 15, -8]
 for number in numbers:
     if number > 0:
         print(number)
+
+
+
+
+
+
+numbers = [-5, 10, -2, 20, 15, -8]
+
+for number in numbers:
+    if number < 0:
+        print(number)
