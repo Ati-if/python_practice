@@ -5,3 +5,5 @@ for i in stg:
 
 print("\n")
 print(stg.upper())
+print("\n")
+print(stg.replace("I am", "He is"))
