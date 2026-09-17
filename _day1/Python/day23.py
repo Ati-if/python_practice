@@ -63,3 +63,33 @@ for i_row in range(r):
     sum_matrix.append(val)
 
 print(sum_matrix)
+
+
+
+
+import os
+
+def current_directory():
+    current_dir = os.getcwd()
+    print("Current Directory:", current_dir)
+
+
+def list_files():
+    files = os.listdir()
+    print("Files in Current Directory:")
+    for file in files:
+        print(file)
+
+
+def create_directory(directory_name):
+    try:
+        os.mkdir(directory_name)
+        print(f"Directory '{directory_name}' created successfully.")
+    except FileExistsError:
+        print(f"Directory '{directory_name}' already exists.")
+
+def file_path(file_name):
+    file_path = os.path.abspath(file_name)
+    print(f"The path of '{file_name}' is: {file_path}")
+
+current_directory()
