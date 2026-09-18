@@ -4,6 +4,7 @@ import smtplib
 import ssl
 
 
+
 def send_test_email():
     # Email details
     sender_email = "your_email@gmail.com"
@@ -62,3 +63,16 @@ if __name__ == "__main__":
     area = (30 * np.random.rand(N)) ** 2
     plt.scatter(x, y, s=area, c=colors, alpha=0.5)
     plt.show()
+
+
+
+
+
+
+
+import pandas as pd
+
+if __name__ == "__main__":
+    df = pd.DataFrame(np.random.randn(6, 4), index=list(range(1, 7)), columns=list("ABCD"))
+    print(df)
+    print(df.describe())
