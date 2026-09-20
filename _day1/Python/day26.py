@@ -48,3 +48,26 @@ p1 = Person("John", 36)
 print(p1.name)
 print(p1.age)
 p1.talk()
+
+
+
+
+
+
+
+class Person :
+  def __init__(self):
+    self.name = "Sam"
+    self.gender = "Male"
+    self.age = 24 # Store age as an integer
+  def talk(self) :
+    print("Hi, I am ", self.name)
+  def vote(self) :
+    if self.age <= 15 : # Access age attribute correctly
+      print("I am not eligible to vote")
+    else:
+      print("I am eligible to vote")
+
+obj = Person()
+obj.talk()
+obj.vote()
