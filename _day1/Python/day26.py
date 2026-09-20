@@ -97,3 +97,21 @@ obj1.talk()
 obj1.vote()
 obj2.talk()
 obj2.vote()
+
+
+
+
+
+
+
+from matplotlib import pyplot as plt
+
+x = [1, 2, 3, 4, 5]
+y = [1, 4, 9, 16, 25]
+
+fig, axes = plt.subplots()
+axes.plot(x, y, 'g')
+axes.set_xlabel('X-Label')
+axes.set_ylabel('Y-Label')
+axes.set_title('Title')
+plt.show()
