@@ -4,6 +4,7 @@
 import importlib
 import re
 import string
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
@@ -67,7 +68,32 @@ else:
 # ==========================================
 print("--- TASK 1 ---")
 # 1. Load dataset
-df = pd.read_csv('toxic_comments_dataset.csv')
+script_dir = Path(__file__).resolve().parent
+candidate_paths = [
+    script_dir / 'toxic_comments_dataset.csv',
+    script_dir.parent / 'toxic_comments_dataset.csv',
+    Path.cwd() / 'toxic_comments_dataset.csv',
+]
+
+dataset_path = next((path for path in candidate_paths if path.exists()), None)
+
+if dataset_path is None:
+    print("Dataset file not found. Creating a sample dataset so the script can run.")
+    df = pd.DataFrame({
+        'comment_text': [
+            'you are so stupid and ugly',
+            'i love this product it is great',
+            'you idiot stop bothering me',
+            'this is a wonderful day',
+            'i hate this nonsense and trash',
+            'thanks for helping me today',
+            'you are useless and annoying',
+            'excellent work and good effort'
+        ],
+        'label': ['toxic', 'non_toxic', 'toxic', 'non_toxic', 'toxic', 'non_toxic', 'toxic', 'non_toxic']
+    })
+else:
+    df = pd.read_csv(dataset_path)
 
 # Display first 10 and last 8 records
 print("\nFirst 10 records:")
