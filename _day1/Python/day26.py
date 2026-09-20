@@ -15,3 +15,17 @@ for i in range(x):
   x = int(input("Enter the next value"))
   arr.append(x)
   print(arr)
+
+
+
+
+def add (a , b) :
+   total = a + b
+   print("The sum is : " , total)
+
+add(20 , 30)
+
+x = 30
+y = 50
+
+add(x , y)
