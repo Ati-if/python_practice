@@ -1,6 +1,3 @@
-# ==========================================
-# Task 1: Dataset Loading and Initial View
-# ==========================================
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -9,10 +6,21 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score, confusion_matrix, precision_score, recall_score, f1_score
+import requests # Import the requests library
+import io # Import io for in-memory file handling
 
 # Load the Titanic dataset
 url = "https://lms.digiskills.pk/Courses/AIP301/Downloads/titanic.csv"
-df = pd.read_csv(url)
+
+# Use requests to get the content and bypass SSL verification
+try:
+    response = requests.get(url, verify=False) # verify=False bypasses SSL certificate verification
+    response.raise_for_status() # Raise an HTTPError for bad responses (4xx or 5xx)
+    df = pd.read_csv(io.StringIO(response.text))
+except requests.exceptions.RequestException as e:
+    print(f"Error fetching data: {e}")
+    # Exit or handle the error appropriately, e.g., load a local backup
+    exit()
 
 # Display total number of rows and columns
 print("Total Rows and Columns:", df.shape)
