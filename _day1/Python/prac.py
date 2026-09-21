@@ -1,3 +1,5 @@
+import io
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -6,21 +8,47 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score, confusion_matrix, precision_score, recall_score, f1_score
-import requests # Import the requests library
-import io # Import io for in-memory file handling
+
+try:
+    import requests
+except ImportError:
+    requests = None
+
+
+def display(obj):
+    print(obj)
 
 # Load the Titanic dataset
 url = "https://lms.digiskills.pk/Courses/AIP301/Downloads/titanic.csv"
 
 # Use requests to get the content and bypass SSL verification
 try:
-    response = requests.get(url, verify=False) # verify=False bypasses SSL certificate verification
-    response.raise_for_status() # Raise an HTTPError for bad responses (4xx or 5xx)
+    if requests is None:
+        raise ImportError("requests library is not installed")
+
+    response = requests.get(url, verify=False)
+    response.raise_for_status()
     df = pd.read_csv(io.StringIO(response.text))
-except requests.exceptions.RequestException as e:
-    print(f"Error fetching data: {e}")
-    # Exit or handle the error appropriately, e.g., load a local backup
-    exit()
+except Exception as e:
+    print(f"Error fetching remote data: {e}")
+    print("Trying to use a local CSV backup if it exists...")
+    local_candidates = [
+        "titanic.csv",
+        "data/titanic.csv",
+        "./titanic.csv",
+        "D:/ATII/python_practice/_day1/titanic.csv",
+    ]
+    df = None
+    for path in local_candidates:
+        try:
+            df = pd.read_csv(path)
+            print(f"Loaded local data from: {path}")
+            break
+        except Exception:
+            continue
+
+    if df is None:
+        raise FileNotFoundError("No Titanic dataset was found locally or remotely.")
 
 # Display total number of rows and columns
 print("Total Rows and Columns:", df.shape)
