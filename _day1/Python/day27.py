@@ -29,3 +29,16 @@ pylab.plot(x , y , 'b--')
 pylab.subplot(2 , 2 , 4)
 pylab.plot(y , x , 'y--')
 pylab.show()
+
+
+
+
+
+"""Drawing a subgraph"""
+pylab.subplot(2 , 2 , 1) # The content of the brackets represent(rows , columns , indexes)
+pylab.plot(x , y , 'r--') # The third parameter represent color and line style
+pylab.subplot(2 , 2 , 2)
+pylab.plot(y , x , 'g--')
+pylab.subplot(2 , 2 , 3)
+pylab.plot(x , y , 'b--')
+pylab.show()
