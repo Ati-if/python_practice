@@ -10,3 +10,7 @@ print(y)
 
 
 print(np.array([x , y]) . reshape(25 , 2))
+
+
+"""It only takes only one command to draw"""
+pylab.plot(x , y , 'g' , 'w') # r stands for red
