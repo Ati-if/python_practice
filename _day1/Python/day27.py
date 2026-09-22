@@ -15,3 +15,4 @@ print(np.array([x , y]) . reshape(25 , 2))
 
 
 pylab.plot(x , y , 'g' , 'w')
+pylab.show()
