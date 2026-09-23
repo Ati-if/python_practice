@@ -34,3 +34,14 @@ axis.set_ylabel('Y-Label')
 axis.set_title('Title')
 
 plt.show()
+
+
+
+
+
+fig, axes = plt.subplots(nrows=3, ncols=4)  # subplots are 3 rows and 4 columns
+for ax in axes.flat:
+    ax.plot(x, y, 'b')
+
+plt.tight_layout()
+plt.show()
