@@ -70,3 +70,24 @@ plt.xlabel('X-Label')
 plt.ylabel('Y-Label')
 plt.title('Title')
 plt.show()
+
+
+
+
+
+import pylab
+
+x = [1, 2, 3, 4, 5]
+y = [5, 4, 3, 2, 1]
+
+fig = pylab.figure(figsize=(16, 9), dpi=200)
+ax = fig.add_subplot(111)
+
+ax.plot(x, y, 'b')
+ax.set_xlabel('X-Label')
+ax.set_ylabel('Y-Label')
+ax.set_title('Title')
+
+pylab.show()
+
+
