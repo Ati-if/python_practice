@@ -59,3 +59,14 @@ axis2 = fig.add_axes([0.2 , 0.5 , 0.3 , 0.4])  #small canvas
 axis1.plot(x , y , 'b')
 axis2.plot(y , x , 'r')
 pylab.show()
+
+
+
+fig = pylab.figure() #new graphic object
+fig.add_subplot()
+
+plt.plot(x , y , 'b')
+plt.xlabel('X-Label')
+plt.ylabel('Y-Label')
+plt.title('Title')
+plt.show()
