@@ -59,3 +59,11 @@ for i in arr :
 
 arr.reverse()
 print(arr)
+
+
+
+
+
+
+for pnt in range(5):
+  print(pnt , arr[pnt])
