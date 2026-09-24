@@ -35,3 +35,11 @@ print (arr)
 
 print(arr.buffer_info())
 print(arr[2])
+
+
+
+
+
+
+for i in arr :
+  print(i)
