@@ -67,3 +67,17 @@ print(arr)
 
 for pnt in range(5):
   print(pnt , arr[pnt])
+
+
+
+
+
+
+from array import *
+arr = array("i" , [])
+x = int(input("Enter the size of array"))
+print("Enter %d elements" %x)
+for i in range(x):
+  x = int(input("Enter the next value"))
+  arr.append(x)
+  print(arr)
