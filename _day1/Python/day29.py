@@ -20,3 +20,11 @@ stg2 = "there"
 stg3 = "All"
 stg = " {} {} , {}! ".format(stg1, stg2, stg3)
 print(stg)
+
+
+
+
+
+from array import *
+arr = array('i' , [1,2,3,4,5])
+print (arr)
