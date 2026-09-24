@@ -43,3 +43,11 @@ print(arr[2])
 
 for i in arr :
   print(i)
+
+
+
+
+
+
+  for pnt in range(5):
+   print(pnt , arr[pnt])
