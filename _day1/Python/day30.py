@@ -22,3 +22,11 @@ n = np.random.randn(5)
 index = ['a' , 'b' , 'c' , 'd' , 'e']
 s3 = pd.Series(n , index = index)
 print(s3)
+
+
+
+
+import pandas as pd
+d = {'a' : 1 , 'b' : 2 , 'c' : 3 , 'd' : 4 , 'e' : 5}
+s4 = pd.Series(d)
+print(s4)
