@@ -37,4 +37,13 @@ print(s4)
 
 print(s1)
 s1.index = ['A' , 'B' , 'C' , 'D' , 'E']
-s1
+print(s1)
+
+
+
+
+
+
+
+# Slicing
+print(s1[:-1])
