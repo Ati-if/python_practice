@@ -30,3 +30,11 @@ import pandas as pd
 d = {'a' : 1 , 'b' : 2 , 'c' : 3 , 'd' : 4 , 'e' : 5}
 s4 = pd.Series(d)
 print(s4)
+
+
+
+
+
+print(s1)
+s1.index = ['A' , 'B' , 'C' , 'D' , 'E']
+s1
