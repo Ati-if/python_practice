@@ -47,3 +47,10 @@ print(s1)
 
 # Slicing
 print(s1[:-1])
+
+
+
+
+
+s4 = pd.concat([s1, s3])
+print(s4)
