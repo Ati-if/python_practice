@@ -86,4 +86,4 @@ c = int(input("Enter third number :"))
 numbers  = [a , b , c]
 numbers.sort()
 
-print("First number is :" , numbers[0])
+print("Last number is :" , numbers[2])
