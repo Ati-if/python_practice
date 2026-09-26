@@ -13,3 +13,14 @@ marks_float = marks.astype(float)
 # Display converted array
 print("\nConverted Array:")
 print(marks_float)
+
+
+
+
+
+
+celsius = float(input("Enter temperature in Celsius: "))
+
+fahrenheit = (celsius * 9 / 5) + 32
+
+print("Fahrenheit =", fahrenheit)
