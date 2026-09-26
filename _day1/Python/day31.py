@@ -34,3 +34,15 @@ fahrenheit = float(input("Enter temperature in Fahrenheit: "))
 celsius = (fahrenheit - 32) * 5 / 9
 
 print("Celsius =", celsius)
+
+
+
+
+
+principal = float(input("Enter the principal amount :"))
+rate = float(input("Enter the rate of interest :"))
+time = float(input("Enter the time in years :"))
+
+interest = (principal * rate * time) / 100
+
+print("Simple Interest = " , interest)
