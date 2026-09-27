@@ -30,3 +30,19 @@ t.start()
 for i in range(5) :
     print("Main Thread")
     time.sleep(1)
+
+
+
+
+
+
+
+from threading import *
+def show() :
+    for i in range(4) :
+        print("This is a child thread")
+
+
+t = Thread(target = show)
+t.start()
+print("This is the main thread")
