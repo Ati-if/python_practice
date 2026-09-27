@@ -77,3 +77,30 @@ Ford = Car(2021 , 200 , "Ford Mustang")
 Ford.getspeed()
 def getspeed(self) :
     print("The speed of the car is :" , self.speed , "km/h")
+
+
+
+
+
+
+
+
+
+
+class Sedan(Car) :
+    def accelerate(self) :
+        print("150 km/h to 200 km/h in 5 seconds")
+
+    def openroof(self) :
+        print("The roof is open")
+
+class SUV(Car) :
+    def accelerate(self) :
+        print("100 km/h to 150 km/h in 10 seconds")
+
+    def openroof(self) :
+        print("The roof is closed")
+
+
+BMW.getspeed()
+    
