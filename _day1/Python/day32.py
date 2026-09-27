@@ -103,4 +103,13 @@ class SUV(Car) :
 
 
 BMW.getspeed()
-    
+
+Honda = Sedan(2022 , 150 , "Honda Accord")
+Honda.getspeed()
+Honda.accelerate()
+Honda.openroof()
+
+Ford = SUV(2021 , 200 , "Ford Mustang")
+Ford.getspeed()
+Ford.accelerate()
+Ford.openroof()
