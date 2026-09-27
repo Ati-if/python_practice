@@ -12,3 +12,21 @@ print(epc)
 localtime = time.localtime(epc)
 
 print("Local current time :", time.asctime(localtime))
+
+
+
+
+
+from threading import Thread
+class Demo :
+    def show(self) :
+        for i in range(5) :
+            print("Child Thread")
+            time.sleep(1)
+
+object = Demo()
+t = Thread(target = object.show())
+t.start()
+for i in range(5) :
+    print("Main Thread")
+    time.sleep(1)
