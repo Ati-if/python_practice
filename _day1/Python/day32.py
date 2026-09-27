@@ -59,3 +59,20 @@ class Car :
 
 BMW = Car()
 BMW.getspeed()
+
+
+
+
+class Car :
+    def __init__ (self , year , speed , model) :
+        self.year = year 
+        self.speed = speed
+        self.model = model
+    def getspeed(self) :
+        print("The speed of the car is :" , self.speed , "km/h")
+
+BMW = Car(2020 , 150 , "BMW X5")
+BMW.getspeed()
+Ford = Car(2021 , 200 , "Ford Mustang")
+Ford.getspeed()
+    
