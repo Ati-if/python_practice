@@ -46,3 +46,16 @@ def show() :
 t = Thread(target = show)
 t.start()
 print("This is the main thread")
+
+
+
+
+
+
+class Car :
+    def  getspeed(self) :
+        print("The speed of the car is 150 km/h")
+
+
+BMW = Car()
+BMW.getspeed()
