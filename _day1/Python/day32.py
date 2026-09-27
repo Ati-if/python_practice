@@ -75,4 +75,5 @@ BMW = Car(2020 , 150 , "BMW X5")
 BMW.getspeed()
 Ford = Car(2021 , 200 , "Ford Mustang")
 Ford.getspeed()
-    
+def getspeed(self) :
+    print("The speed of the car is :" , self.speed , "km/h")
