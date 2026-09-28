@@ -30,3 +30,18 @@ if year % 4 == 0 :
     print("The year is a leap year .")
 else :
     print("The year is not a leap year .")
+
+
+
+
+
+
+
+number = int(input("Enter a number :"))
+
+factorial = 1 
+
+for i in range(1 , number + 1) :
+    factorial = factorial * i
+
+print("The factorial of", number, "is", factorial)
