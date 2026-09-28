@@ -99,3 +99,18 @@ for number in numbers :
 print("The smallest number in the list is :" , smallest)
 
 
+
+
+
+numbers = [10 , 25 , 30 , 45 , 50]
+
+largest = numbers[0]
+
+for number in numbers :
+    if number > largest :
+        largest = number    
+
+
+print("The largest number in the list is :" , largest)
+
+
