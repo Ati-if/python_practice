@@ -80,3 +80,22 @@ while number > 0 :
 
 
 print("The number of digits in the number is :" , count)
+
+
+
+
+
+
+
+numbers = [10 , 25 , 30 , 45 , 50]
+
+smallest = numbers[0]
+
+for number in numbers :
+     if number < smallest :
+         smallest = number 
+
+
+print("The smallest number in the list is :" , smallest)
+
+
