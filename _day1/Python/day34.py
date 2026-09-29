@@ -64,3 +64,19 @@ if guess == secret_number :
 
 else :
     print("Sorry! You guessed the secret number incorrectly. The secret number is " , secret_number)
+
+
+
+
+
+
+
+
+numbers = [10, 20, 30, 40, 50]
+
+total = 0 
+
+for number in numbers :
+    total += number 
+
+print("The sum of the numbers in the list is :" , total)
