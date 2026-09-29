@@ -11,3 +11,13 @@ print("The difference of two numbers is :" , a - b)
 print("The product of two numbers is :" , a * b)
 
 print("The division of two numbers is :" , a / b)
+
+
+
+
+
+
+name = input("Enter your name :")
+age = int(input("Enter your age :"))
+
+print("Hello" , name , "You are" , age , "years old")
