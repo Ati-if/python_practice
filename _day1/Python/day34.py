@@ -47,3 +47,20 @@ if a > b :
 
 else :
     print(b , "is greater than " , a)
+
+
+
+
+
+
+
+
+secret_number = 10
+
+guess = int(input("Guess the secret number b/w 1 to 20 :"))
+
+if guess == secret_number :
+    print("Congratulations! You guessed the secret number correctly")
+
+else :
+    print("Sorry! You guessed the secret number incorrectly. The secret number is " , secret_number)
