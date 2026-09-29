@@ -23,3 +23,13 @@ age = int(input("Enter your age :"))
 print("Hello" , name , "You are" , age , "years old")
 
 print(f"Hello, {name}\nYou are {age} years old")
+
+
+
+
+
+
+number = int(input("Enter a number :"))
+
+for i in range(1 , 11) :
+    print(number , "x" , i , "=" , number * i)
