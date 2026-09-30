@@ -44,3 +44,36 @@ print("Number of vowels:", len(vowels))
 
 print("Consonants found:", consonants)
 print("Number of consonants:", len(consonants))
+
+
+
+
+
+
+
+
+
+
+
+total_sales = 0
+
+for i in range(1 , 6) :
+    sales = float(input("Enter the sales for employee  {i} :"))
+
+    if sales < 5000 :
+        tax = sales * 0.05
+    elif sales < 10000 :
+        tax = sales * 0.10
+    else :
+        tax = sales * 0.15
+
+    print(f"The tax for employee {i} is :" , tax)
+    print(f"The sales of employee {i} is :" , sales)
+    print("-"  * 20)
+
+    total_sales += sales 
+
+average_sales = total_sales / 5
+
+print("Total sales : RS ."  , round(total_sales , 2))
+print("Average_sales : RS. " , round(average_sales , 2))
