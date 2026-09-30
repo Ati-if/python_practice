@@ -57,7 +57,7 @@ print("Number of consonants:", len(consonants))
 
 total_sales = 0
 
-for i in range(1 , 6) :
+for i in range(1 , 3) :
     sales = float(input("Enter the sales for employee  {i} :"))
 
     if sales < 5000 :
