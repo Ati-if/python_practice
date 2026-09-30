@@ -77,3 +77,71 @@ average_sales = total_sales / 5
 
 print("Total sales : RS ."  , round(total_sales , 2))
 print("Average_sales : RS. " , round(average_sales , 2))
+
+
+
+
+
+
+
+
+class Customer :
+    def __init__(self , name , customer_id) :
+        self.name = name
+        self.customer_id = customer_id
+
+
+    def display_customer(self) :
+        print("Customer Name: " , self.name)
+        print("Customer ID :" , self.customer_id)
+
+
+class Account :
+    def __init__(self , account_number , customer , balance = 0) :
+        self.account_number = account_number
+        self.customer = customer
+        self.balance = balance
+
+
+    def deposit (self , amount) :
+        if amount > 0 :
+            self.balance += amount
+            print(f"RS . {amount : .2f} deposited successfully ")
+        else :
+            print("Invalid deposit ammount")
+
+
+    def withdraw(self , amount) :
+        if amount <=  0 :
+            print("Invalid withdrawl ammount .")
+        elif amount > self.balance :
+            print("Insufficient balance .")
+        else :
+            self.balance -= amount
+            print(f"RS . {amount : .2f}  withdrawn successfully .")
+
+    def display_balance(self) :
+        print(f"Current balance is : RS . {self.balance : .2f}")
+
+
+customer1 = Customer("Ali" ,  "C001")
+
+account1 = Account("A001" , customer1 , 10000)
+
+customer1.display_customer()
+print("Account_number :"  , account1.account_number)
+print()
+
+account1.display_balance()
+
+account1.deposit(5000)
+account1.display_balance()
+
+
+account1.withdraw(3000)
+account1.display_balance()
+
+
+
+    
+            
