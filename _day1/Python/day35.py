@@ -22,3 +22,25 @@ sentence = input("Enter a sentence :")
 words = sentence.split()
 
 print("The number of words in the sentence is :" , len(words))
+
+
+
+
+
+sentence = input("Enter a sentence: ")
+
+words = sentence.split()
+print("The number of words in the sentence is:", len(words))
+
+# Define vowels
+vowels_list = "aeiouAEIOU"
+
+# Filter vowels and consonants using list comprehensions
+vowels = [char for char in sentence if char in vowels_list]
+consonants = [char for char in sentence if char.isalpha() and char not in vowels_list]
+
+print("Vowels found:", vowels)
+print("Number of vowels:", len(vowels))
+
+print("Consonants found:", consonants)
+print("Number of consonants:", len(consonants))
