@@ -11,4 +11,14 @@ for letter in text :
 
 
 print("Number of vowels in the word is :" , vowels)
-print("Number of consonants in the word is :" , consonants)    
+print("Number of consonants in the word is :" , consonants) 
+
+
+
+
+
+sentence = input("Enter a sentence :")
+
+words = sentence.split()
+
+print("The number of words in the sentence is :" , len(words))
