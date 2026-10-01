@@ -32,3 +32,22 @@ while True :
         break
     else :
         print("Try again!")
+
+
+
+
+
+
+
+
+
+for number in range(2 , 60) :
+    prime = True
+
+    for i in range(2 , number) :
+        if number % i == 0 :
+            prime = False
+            break
+
+    if prime :
+        print(number)
