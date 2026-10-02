@@ -59,3 +59,11 @@ def square(number):
 number = int(input("Enter number: "))
 
 print("Square =", square(number))
+
+
+
+
+
+
+import math
+print (math.sqrt(16))
