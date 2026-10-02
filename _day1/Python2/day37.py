@@ -67,3 +67,23 @@ print("Square =", square(number))
 
 import math
 print (math.sqrt(16))
+
+
+
+
+
+
+
+
+
+
+numbers = [10, 20, 30, 40, 50]
+
+total = 0
+
+for number in numbers:
+    total = total + number
+
+average = total / len(numbers)
+
+print("Average =", average)
