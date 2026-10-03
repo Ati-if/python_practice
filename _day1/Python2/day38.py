@@ -109,3 +109,9 @@ b = 1
 for i in range(10):
     print(a)
     a, b = b, a + b
+
+
+
+
+for i in range(1, 11):
+    print(f"{i} x {i} = {i * i}")
