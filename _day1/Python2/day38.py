@@ -95,3 +95,17 @@ print(df_everbee[df_everbee["Age Category"] == "Established (> 4 Months)"].to_st
 
 # Export to CSV
 df_everbee.to_csv("everbee_shop_age_analytics.csv", index=False)
+
+
+
+
+
+
+
+
+a = 0
+b = 1
+
+for i in range(10):
+    print(a)
+    a, b = b, a + b
