@@ -105,3 +105,29 @@ while number > 0 :
     number = number // 10
 
 print("Reversed number is : " , reversed_number)
+
+
+
+
+
+
+
+number = int(input("Enter a number :"))
+
+if number > 0 :
+    print("Prime number ")
+else :
+    prime = True
+
+    for i in range(2 , number ) :
+        if number % i == 0 :
+            prime = False
+            break
+
+    if prime :
+        print("Prime number ")
+
+    else :
+        print("Not a prime number")
+
+
