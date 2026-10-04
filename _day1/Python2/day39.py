@@ -23,3 +23,22 @@ if a > b :
 
 else :
     print("Second number is greater than first number")
+
+
+
+
+
+
+
+
+
+
+secret_number = 10
+
+guess = int(input("Guess the secret number :"))
+
+if guess == secret_number :
+    print("You guessed it right!")
+
+else :
+    print("Try again!")
