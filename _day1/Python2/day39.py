@@ -55,3 +55,20 @@ number = int(input("Enter a number :"))
 
 for i in range(1 , 11) :
     print(number , "x" , i , "=" , number * i)
+
+
+
+
+
+
+
+
+
+
+number = int(input("Enter a number :"))
+
+if number % 5 == 0 and number % 10 == 0 :
+    print("Number is divisible by both 5 and 10")
+
+else :
+    print("Number is not divisible by both 5 and 10")
