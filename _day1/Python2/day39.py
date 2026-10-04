@@ -42,3 +42,16 @@ if guess == secret_number :
 
 else :
     print("Try again!")
+
+
+
+
+
+
+
+
+
+number = int(input("Enter a number :"))
+
+for i in range(1 , 11) :
+    print(number , "x" , i , "=" , number * i)
