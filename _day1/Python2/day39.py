@@ -85,3 +85,23 @@ if number % 5 == 0 or number % 10 == 0:
     print("Number is divisible by 5 or 10")
 else:
     print("Number is not divisible by 5 or 10")
+
+
+
+
+
+
+
+
+
+
+number = int(input("Enter a number :"))
+
+reversed_number = 0
+
+while number > 0 :
+    digit = number % 10
+    reversed_number = reversed_number * 10 + digit
+    number = number // 10
+
+print("Reversed number is : " , reversed_number)
