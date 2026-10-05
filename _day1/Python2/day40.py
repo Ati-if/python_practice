@@ -74,3 +74,13 @@ fruits = ["Apple" , "Banana" , "Mango" , "Grapes"]
 fruits.remove("Mango")
 
 print(fruits)
+
+
+
+
+
+
+
+fruits.append("Orange")
+
+print(fruits)
