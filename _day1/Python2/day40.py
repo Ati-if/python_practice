@@ -61,3 +61,16 @@ for i in range(1 , 15) :
         total += i 
 
 print("Sum of odd numbers from 1 to 15 is" , total)
+
+
+
+
+
+
+
+
+fruits = ["Apple" , "Banana" , "Mango" , "Grapes"]
+
+fruits.remove("Mango")
+
+print(fruits)
