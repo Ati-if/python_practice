@@ -84,3 +84,16 @@ print(fruits)
 fruits.append("Orange")
 
 print(fruits)
+
+
+
+
+
+
+
+
+numbers = [50 , 20 , 10 , 40 , 30]
+
+numbers.sort()
+
+print(numbers)
