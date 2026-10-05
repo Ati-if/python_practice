@@ -18,3 +18,13 @@ def square(number) :
 number = int(input("Enter a number :"))
 
 print("Square of " , number , "is" , square(number))
+
+
+
+
+
+
+
+import math
+
+print("Square root of 25 is" , math.sqrt(25))
