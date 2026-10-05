@@ -97,3 +97,19 @@ numbers = [50 , 20 , 10 , 40 , 30]
 numbers.sort()
 
 print(numbers)
+
+
+
+
+
+
+
+
+numbers = [50 , 20 , 10 , 40 , 30 , 10 , 20]
+
+for number in numbers :
+    if numbers.count(number) > 1 :
+        print(number , "is a duplicate number")
+
+    else :
+        print(number , "is not a duplicate number")
