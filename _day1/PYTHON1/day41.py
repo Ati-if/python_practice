@@ -164,3 +164,23 @@ final_price = price - discount
 print("Final Price after discount is :" , final_price)
 
 print("Discount applied is :" , discount)
+
+
+
+
+
+
+
+
+
+balance = float(input("Enter the current balance in your account :"))
+
+amount = float(input("Enter the amount to withdraw :"))
+
+if amount <= balance :
+    balance -= amount
+    print("Withdrawl successful. New balance is :" , balance)
+
+else :
+    print("Insufficient balance. Withdrawl failed.")
+
