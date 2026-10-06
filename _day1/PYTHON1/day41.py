@@ -143,3 +143,24 @@ price3 = float(input("Enter the price of item 3 :"))
 total_price = price1 + price2 + price3
 
 print("Total Price of the items is :" , total_price)
+
+
+
+
+
+
+
+
+
+
+
+
+price = float(input("Enter the price of the product :"))
+
+discount = price * 1
+
+final_price = price - discount
+
+print("Final Price after discount is :" , final_price)
+
+print("Discount applied is :" , discount)
