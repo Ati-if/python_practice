@@ -125,3 +125,21 @@ if percentage >= 40 :
     print("Result : Pass")
 else :
     print("Result : Fail")
+
+
+
+
+
+
+
+
+
+
+price1 = float(input("Enter the price of item 1 :"))
+price2 = float(input("Enter the price of item 2 :"))
+price3 = float(input("Enter the price of item 3 :"))
+
+
+total_price = price1 + price2 + price3
+
+print("Total Price of the items is :" , total_price)
