@@ -184,3 +184,20 @@ if amount <= balance :
 else :
     print("Insufficient balance. Withdrawl failed.")
 
+
+
+
+
+
+
+
+
+
+username = input("Enter your username :")
+password = input("Enter your password :")
+
+if username == "Atiif" and password == "1390"  :
+    print("Login successful. Welcome" , username)
+
+else :
+    print("Login failed. Invalid username or password, You are not authorized to access this system.")
