@@ -84,3 +84,44 @@ def check_even_odd(number) :
 number = input("Enter a number to check if it is even or odd :")
 
 print("The number", number, "is an", check_even_odd(int(number)))
+
+
+
+
+
+
+
+
+
+
+
+name = input("Enter the name of the student :")
+
+
+marks = int(input("Enter the marks for subject 1 :"))
+marks = int(input("Enter the marks for subject 2 :"))
+marks = int(input("Enter the marks for subject 3 :"))
+
+total = marks + marks + marks
+
+percentage = total / 3
+
+
+print("Student Name :" , name)
+print("Total Marks :" , total)
+print("Percentage :" , percentage)  
+
+
+if percentage >= 90 :
+    print("Grade : A")
+elif percentage >= 80 :     
+    print("Grade : B")
+else :
+    print("Grade : C")
+
+
+
+if percentage >= 40 :
+    print("Result : Pass")
+else :
+    print("Result : Fail")
