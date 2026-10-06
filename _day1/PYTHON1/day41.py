@@ -201,3 +201,22 @@ if username == "Atiif" and password == "1390"  :
 
 else :
     print("Login failed. Invalid username or password, You are not authorized to access this system.")
+
+
+
+
+
+
+
+
+
+
+
+number = int(input("Enter a number: "))
+
+root = int(number ** 0.5)
+
+if root * root == number:
+    print("Perfect square")
+else:
+    print("Not a perfect square")
