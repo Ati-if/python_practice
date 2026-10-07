@@ -137,3 +137,21 @@ for number in numbers :
 
 
 print("The count of odd numbers in the list is :" , count)
+
+
+
+
+
+
+
+
+
+
+
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a // b)
