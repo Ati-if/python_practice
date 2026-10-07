@@ -54,3 +54,26 @@ if year % 4 == 0 and (year % 100 != 0 or year % 400 == 0):
 
 else :
     print(year, "is not a leap year")
+
+
+
+
+
+
+
+
+
+
+
+
+
+numbers = [10 , 20 , 30 , 40 , 50 , 60]
+
+smallest = min(numbers)
+
+for number in numbers :
+    if number < smallest :
+        smallest = number
+
+
+print("The smallest number in the list is :", smallest)
