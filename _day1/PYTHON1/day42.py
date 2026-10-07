@@ -15,7 +15,7 @@ print("This is Atif Nawaz , I am learning python")
 
 
 
-number = int(input("Enter a number"))
+number = int(input("Enter a number :"))
 
 if number % 2 == 0 :
     print("The number is even")
@@ -32,7 +32,7 @@ else :
 
 
 
-number = int(input("Enter a number: "))
+number = int(input("Enter a number : "))
 
 for i in range(1, 11):
     print(number, "x", i, "=", number * i)
