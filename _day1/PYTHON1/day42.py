@@ -117,3 +117,23 @@ for number in numbers :
 
 
 print("The count of even numbers in the list is :" , count)
+
+
+
+
+
+
+
+
+
+
+numbers = [10 , 15 , 17 , 20 , 23 , 25 , 30]
+
+count = 0 
+
+for number in numbers :
+    if number % 2 != 0 :
+        count += 1 
+
+
+print("The count of odd numbers in the list is :" , count)
