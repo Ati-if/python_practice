@@ -97,3 +97,23 @@ for number in numbers :
 
 
 print("The largest number in the list is :" , largest)
+
+
+
+
+
+
+
+
+
+
+numbers = [10 , 15 , 17 , 20 , 23 , 25 , 30]
+
+count = 0 
+
+for number in numbers :
+    if number % 2 == 0 :
+        count += 1
+
+
+print("The count of even numbers in the list is :" , count)
