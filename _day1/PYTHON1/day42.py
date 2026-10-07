@@ -22,3 +22,17 @@ if number % 2 == 0 :
 
 else :
     print("The number is odd")
+
+
+
+
+
+
+
+
+
+
+number = int(input("Enter a number: "))
+
+for i in range(1, 11):
+    print(number, "x", i, "=", number * i)
