@@ -74,3 +74,22 @@ elif not password.isalnum() :
 
 else :
     print("Password should be between 5 and 10 characters long")
+
+
+
+
+
+
+
+
+
+
+
+number = int(input("Enter a number :"))
+
+factorial = 1
+
+for i in range(1 , number + 1) :
+    factorial *= i
+
+print("The factorial of" , number , "is :" , factorial)
