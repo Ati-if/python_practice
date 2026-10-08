@@ -120,3 +120,22 @@ else:
         count += 1
 
 print(f"The number of digits in {original_number} is : {count}")
+
+
+
+
+
+
+
+
+
+
+
+
+def check_palindrome(string):
+    # Remove spaces and convert to lowercase for uniformity
+    cleaned_string = string.replace(" ", "").lower()
+    # Check if the cleaned string is equal to its reverse
+    return cleaned_string == cleaned_string[::-1]
+
+
