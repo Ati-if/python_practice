@@ -142,3 +142,29 @@ def check_palindrome(string):
 result = check_palindrome("racecar")
 
 print(result)
+
+
+
+
+
+
+
+
+
+def check_palindrome(string):
+    # Remove spaces and convert to lowercase for uniformity
+    cleaned_string = string.replace(" ", "").lower()
+    # Check if the cleaned string is equal to its reverse
+    return cleaned_string == cleaned_string[::-1]
+
+# Example usage / Testing the function
+test_strings = [
+    "racecar",
+    "A man a plan a canal Panama",
+    "hello",
+    "Never odd or even",
+    "Python"
+]
+
+for s in test_strings:
+    print(f"'{s}' -> {check_palindrome(s)}")
