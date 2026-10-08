@@ -55,3 +55,22 @@ elif len(password) > 10 :
 
 else :
     print("Password is valid")
+
+
+
+
+
+
+
+
+
+password = input("Enter a password :")
+
+if password.isalnum() and len(password) >= 5 and len(password) <= 10 :
+    print("Password is valid")
+
+elif not password.isalnum() :
+    print("Password should contain only letters and numbers")
+
+else :
+    print("Password should be between 5 and 10 characters long")
