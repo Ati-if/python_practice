@@ -204,3 +204,21 @@ for i in range(1 , 86) :
         total += i
 
 print("The sum is :" , total)
+
+
+
+
+
+
+
+
+
+username = input("Enter your username :")
+password = input("Enter your password :")
+
+
+if username ==  "Atiif"  and password == "1390" :
+    print("Welcome Atiif") 
+
+else :
+    print("Your Data is at risk")
