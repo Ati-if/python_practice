@@ -15,3 +15,22 @@ elif number < 0 :
 
 else :
     print(number , "is zero")
+
+
+
+
+
+
+
+
+
+
+numbers = [10 , 20 , 30 , 40 , 50 , 60]
+
+total = 0
+
+for number in numbers :
+    total += number
+
+
+print("The sum of all numbers in the list is :" , total)
