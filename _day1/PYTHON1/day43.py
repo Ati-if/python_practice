@@ -139,3 +139,6 @@ def check_palindrome(string):
     return cleaned_string == cleaned_string[::-1]
 
 
+result = check_palindrome("racecar")
+
+print(result)
