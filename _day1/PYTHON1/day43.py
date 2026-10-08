@@ -34,3 +34,24 @@ for number in numbers :
 
 
 print("The sum of all numbers in the list is :" , total)
+
+
+
+
+
+
+
+
+
+
+
+password = input("Enter a password :")
+
+if len(password) < 5 :
+    print("Password is too short")
+
+elif len(password) > 10 :
+    print("Password is too long")
+
+else :
+    print("Password is valid")
