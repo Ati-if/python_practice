@@ -102,12 +102,21 @@ print("The factorial of" , number , "is :" , factorial)
 
 
 
-number = int(input("Enter a number :"))
+number = int(input("Enter a number : "))
 
-count = 0 
+# Store the original value so it can be printed later
+original_number = number
 
-while number > 0 :
-    number // 10
-    count += 1
+count = 0
 
-print("The number of digits in the number is :" , count)
+# Handle 0 specifically since a 0 input has 1 digit
+if number == 0:
+    count = 1
+else:
+    # Use absolute value to support negative numbers
+    number = abs(number)
+    while number > 0:
+        number //= 10  # Equivalent to number = number // 10
+        count += 1
+
+print(f"The number of digits in {original_number} is : {count}")
