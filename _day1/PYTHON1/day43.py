@@ -168,3 +168,21 @@ test_strings = [
 
 for s in test_strings:
     print(f"'{s}' -> {check_palindrome(s)}")
+
+
+
+
+
+
+
+
+
+import string
+
+def check_palindrome_advanced(text):
+    # Keep only alphanumeric characters (letters and digits) and convert to lowercase
+    cleaned_string = "".join(char.lower() for char in text if char.isalnum())
+    return cleaned_string == cleaned_string[::-1]
+
+# Example with punctuation
+print(check_palindrome_advanced("A man, a plan, a canal: Panama!")) # Returns True
