@@ -35,3 +35,22 @@ for number in range(2 , 51) :
 
 for i in range(5) :
     print("You took the heart that begged for love and taught it how to hate")
+
+
+
+
+
+
+
+
+
+
+
+
+total = 0
+
+for i in range(1 , 51) :
+    if i % 2 == 0 :
+        total += i
+
+print("The sum of the numbers is :" , total)
