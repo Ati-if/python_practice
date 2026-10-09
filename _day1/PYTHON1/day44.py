@@ -99,9 +99,9 @@ def divide(a , b) :
 
 
 
-a = float(input("Enter the first number :"))
+a = int(input("Enter the first number :"))
 
-b = float(input("Enter the second number :"))
+b = int(input("Enter the second number :"))
 
 
 
