@@ -212,3 +212,23 @@ list2 = [2 , 3 , 4 , 6 , 5]
 for number in list1 :
     if number not in list2 :
         print(number)
+
+
+
+
+
+
+
+
+
+
+numbers = [10 , 20 , 10 , 20 , 30 , 40]
+
+unique = []
+
+for number in numbers :
+    if number not in unique :
+        unique.append(number)
+
+
+print(unique)
