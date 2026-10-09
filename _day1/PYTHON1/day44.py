@@ -25,3 +25,13 @@ for number in range(2 , 51) :
 
     if even :
         print(number)
+
+
+
+
+
+
+
+
+for i in range(5) :
+    print("You took the heart that begged for love and taught it how to hate")
