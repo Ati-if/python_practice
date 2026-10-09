@@ -149,3 +149,28 @@ else :
     print("Not a Perfect Square")
 
 
+
+
+
+
+
+
+
+
+numbers = [10, -5, 20, -8, 0, 15, -3]
+
+
+positive = 0
+negative = 0
+
+
+
+for number in numbers :
+    if number > 0 :
+        positive += 1
+    elif number < 0 :
+        negative += 1
+
+
+print("Positive numbers are :" , positive)
+print("Negative numbers are :" , negative)
