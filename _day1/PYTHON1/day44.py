@@ -54,3 +54,23 @@ for i in range(1 , 51) :
         total += i
 
 print("The sum of the numbers is :" , total)
+
+
+
+
+
+
+
+
+
+
+
+numbers = [10 , 20 , 30 , 40 , 10 , 20 , 20]
+
+number = int(input("Enter number to count :"))
+
+count = numbers.count(number)
+
+print("Count :" , count)
+
+
