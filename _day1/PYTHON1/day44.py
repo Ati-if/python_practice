@@ -232,3 +232,21 @@ for number in numbers :
 
 
 print(unique)
+
+
+
+
+
+
+
+
+
+
+
+
+
+sentence = input("Enter a sentence :")
+
+words = sentence.split()
+
+print("Numbers of words in sentence are :" , len(words))
