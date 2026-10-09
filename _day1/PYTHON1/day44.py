@@ -131,3 +131,21 @@ number = int(input("Enter a number :"))
 print(check_even_odd(number))
 
 
+
+
+
+
+
+
+
+number = int(input("Enter a number :"))
+
+root = int(number * 1.5)
+
+if root * root == number :
+    print("Perfect Square")
+
+else :
+    print("Not a Perfect Square")
+
+
