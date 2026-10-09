@@ -74,3 +74,41 @@ count = numbers.count(number)
 print("Count :" , count)
 
 
+
+
+
+
+
+
+
+
+
+
+
+def add(a , b) :
+    return a + b
+
+def subtract(a , b) :
+    return a - b
+
+def multiply(a , b) :
+    return a * b 
+
+def divide(a , b) :
+    return a / b
+
+
+
+a = float(input("Enter the first number :"))
+
+b = float(input("Enter the second number :"))
+
+
+
+print("Additon :" , add(a , b))
+print("Substraction :" , subtract(a , b))
+print("Multiplication :" , multiply(a , b))
+print("Division :" , divide(a , b))
+
+
+
