@@ -174,3 +174,25 @@ for number in numbers :
 
 print("Positive numbers are :" , positive)
 print("Negative numbers are :" , negative)
+
+
+
+
+
+
+
+
+
+
+
+
+
+numbers = [1 , 2 , 3 , 4 , 5]
+
+reverse = []
+
+for number in numbers :
+    reverse.insert(0 , number)
+
+
+print(reverse)
