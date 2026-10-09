@@ -196,3 +196,19 @@ for number in numbers :
 
 
 print(reverse)
+
+
+
+
+
+
+
+
+
+list1 = [1 , 2 , 3 , 4 , 5]
+list2 = [2 , 3 , 4 , 6 , 5]
+
+
+for number in list1 :
+    if number not in list2 :
+        print(number)
