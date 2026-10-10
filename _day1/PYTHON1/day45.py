@@ -21,3 +21,21 @@ numbers.sort()
 
 print("Second largest number is :" , numbers[-3])
 
+
+
+
+
+
+
+
+
+numbers = [1 , 2 , 3 , 4 , 5 , 10]
+
+reverse = []
+
+for number in numbers :
+    reverse.insert(0 , number)
+
+
+print(reverse)
+
