@@ -117,3 +117,25 @@ print("a = " , a)
 print("b = " , b)
 
 
+
+
+
+
+
+
+
+
+
+
+student = {
+    "name" : "Ali" , 
+    "age"  : 25 ,
+    "marks"  : 85
+}
+
+
+print("Name :" , student["name"])
+print("Age :" , student["age"])
+print("Marks :" , student["marks"])
+
+
