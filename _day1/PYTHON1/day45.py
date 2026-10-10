@@ -139,3 +139,21 @@ print("Age :" , student["age"])
 print("Marks :" , student["marks"])
 
 
+
+
+
+
+
+
+
+
+student = {
+    "name": "Ali",
+    "age": 20
+}
+
+student["marks"] = 85
+
+print(student)
+
+
