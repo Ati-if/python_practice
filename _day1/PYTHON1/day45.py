@@ -56,3 +56,25 @@ for number in list1 :
     if number in list2 :
 
         print(number)
+
+
+
+
+
+
+
+
+
+numbers = [10 , 20 , 20 , 10 , 30 , 20 , 40 , 50]
+
+
+unique = []
+
+for number in numbers :
+    if number not in unique :
+        unique.append(number)
+
+
+print(unique)
+
+
