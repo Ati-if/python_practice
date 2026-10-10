@@ -78,3 +78,24 @@ for number in numbers :
 print(unique)
 
 
+
+
+
+
+
+
+
+import numpy as np
+
+marks = np.array([78 , 85 , 95 , 50 , 60])
+
+print("Original Array :")
+print(marks)
+
+marks_float = marks.astype(float)
+
+
+print("\n Converted Array :")
+print(marks_float)
+
+
